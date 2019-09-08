@@ -5,6 +5,7 @@
     <ClCompile Include="Core\ShaderLoader.cpp">
       <Filter>Core</Filter>
     </ClCompile>
+    <ClCompile Include="Core\GameModels.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Core">
@@ -21,9 +22,16 @@
     <None Include="Shaders\VertexShader.glsl">
       <Filter>Shaders</Filter>
     </None>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Core\ShaderLoader.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\VertexFormat.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\GameModels.hpp">
       <Filter>Core</Filter>
     </ClInclude>
   </ItemGroup>
